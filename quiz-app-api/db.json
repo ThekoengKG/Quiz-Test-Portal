@@ -1,0 +1,210 @@
+{
+  "quiz-questions": [
+    {
+      "id": 1,
+      "question": "Which of the following would be considered as most valuable by an Agile team?",
+      "options": [
+        {
+          "option": "Following a plan",
+          "answer": false
+        },
+        {
+          "option": "Processes and Tools",
+          "answer": false
+        },
+        {
+          "option": "Working software",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which methodology is known for frequent releases and osmotic communication?",
+      "options": [
+        {
+          "option": "XP",
+          "answer": false
+        },
+        {
+          "option": "Crystal",
+          "answer": true
+        },
+        {
+          "option": "Scrum",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which of the following statements describes Scrum?",
+      "options": [
+        {
+          "option": "A methodology in which you practice only continuous integration and pair programming",
+          "answer": false
+        },
+        {
+          "option": "A basic workflow visualization tool that enables you to optimize your work",
+          "answer": false
+        },
+        {
+          "option": "A lightweight framework designed to develop and manage complex products in an iterative and incremental way",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "A Product Owner wants a story to be completed in four days. The Development Team working on the Story reckons it will take seven days. The Scrum Master feels it should take five days. A subject matter expert, who has worked on similar Stories in the past, thinks it should take maximum three days.Whose estimate should be used for planning?",
+      "options": [
+        {
+          "option": "The Development Team",
+          "answer": true
+        },
+        {
+          "option": "The Product Owner's",
+          "answer": false
+        },
+        {
+          "option": "The Scrum Master's",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which items on the product backlog should be small?",
+      "options": [
+        {
+          "option": "The items on the bottom of the Product Backlog",
+          "answer": false
+        },
+        {
+          "option": "The items on the top of the Product Backlog",
+          "answer": true
+        },
+        {
+          "option": "All items in the Product Backlog",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Agile planning happens at multiple levels. Which of the following terms best describes the multi-level planning?",
+      "options": [
+        {
+          "option": "Planning Onion",
+          "answer": true
+        },
+        {
+          "option": "Sprint Planning layers",
+          "answer": false
+        },
+        {
+          "option": "Strategic Level Planning",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "During a release planning, the Product Backlog items are grouped into smaller releases that drive towards the product roadmap. Who plans a release?",
+      "options": [
+        {
+          "option": "Product Owner",
+          "answer": false
+        },
+        {
+          "option": "Stakeholders",
+          "answer": false
+        },
+        {
+          "option": "Scrum Team",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is the highest priority for an Agile project?",
+      "options": [
+        {
+          "option": "Escaped defects",
+          "answer": false
+        },
+        {
+          "option": "Customer satisfaction",
+          "answer": true
+        },
+        {
+          "option": "Sprint Burn-down rate ",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "A Scrum of Scrums is a meeting between ________.",
+      "options": [
+        {
+          "option": "Only the Scrum Masters of all the Scrum teams",
+          "answer": false
+        },
+        {
+          "option": "A couple of members from each Scrum team",
+          "answer": false
+        },
+        {
+          "option": "A couple of members from each Scrum team",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "In adopting Agile, Support and Maintenance teams have to primarily become used to ________.",
+      "options": [
+        {
+          "option": "Working with a backlog",
+          "answer": true
+        },
+        {
+          "option": "Reviewing bugs",
+          "answer": false
+        },
+        {
+          "option": "SLAs",
+          "answer": false
+        }
+      ]
+    }
+  ],
+  "Users": [
+    {
+      "id": 101,
+      "username": "Kwame",
+      "email": "kwameN@gmail.com",
+      "password": "1234KN"
+    },
+    {
+      "username": "Nyerere",
+      "email": "nyerere@gmail.com",
+      "password": "246810",
+      "id": 102
+    },
+    {
+      "username": "Trompies",
+      "email": "trompies@gmail.com",
+      "password": "3691215",
+      "id": 103
+    },
+    {
+      "username": "Chawsta",
+      "email": "chawsta@gmail.com",
+      "password": "481216",
+      "id": 104
+    }
+  ]
+}

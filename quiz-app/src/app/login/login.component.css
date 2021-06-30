@@ -1,0 +1,11 @@
+.row{
+    background-position-x: 50% ;
+    background-position-y: 50% ;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background: rgb(218, 226, 230);
+}
+
+.card-body{
+    background:rgb(96, 118, 143)
+}

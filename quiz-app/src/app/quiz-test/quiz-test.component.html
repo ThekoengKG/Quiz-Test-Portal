@@ -1,0 +1,46 @@
+<!-- Nav Bar -->
+<nav class="navbar navbar-dark bg-secondary">
+    <div class="container-fluid">
+      <h3 class="justify-text-center">Quiz Test</h3> 
+      <form class="d-flex">
+        <button  class="btn btn-danger" type="submit" (click)="signOut()">SignOut</button>
+      </form>
+    </div>
+</nav>
+
+
+<!-- Quiz -->
+<div class="container p-5">
+    <div class="row">
+        <div class="col-sm-8 offset-2">
+            <div *ngIf="currentQuiz < 10">
+                <p class="text-center"><b>Question {{ currentQuiz+1}} of {{quizData.length}}</b></p>
+                <h4 class="text-align-justify">{{quizData[currentQuiz].question}}</h4>
+                <ul class="list-group" *ngFor="let quiz of quizData[currentQuiz].options">
+                    <label>
+                        <li class="list-group-item" appBackgroundColor [correctAnswer] = "quiz.correct" >
+                            <input type="radio" class="btn btn-secondary" name="option" (change)="onAnswer(quiz.answer)" [disabled]="optionSelected">
+                            {{ quiz.option }}
+                        </li>
+                    </label>
+                </ul><br />
+            </div>
+            
+            <div *ngIf="currentQuiz > 9">
+            <h2><b>Click the "Show Results" button below to view your overall results.</b></h2><br />
+            <button class="btn btn-success btn-block" (click)="showResults()">Show Results</button> 
+            <br />
+            <br />
+            
+            <div *ngIf="result">
+                <h4>You got {{correctAnswer}} correct answers and {{incorrectAnswer}} incorrect answers.</h4>
+                <h4>Your total score is {{correctAnswer}}/{{quizData.length}}.</h4>
+            </div>
+            <br />
+             <p><b>THANK YOU FOR COMPLETEING THE QUIZ.</b><br />
+                        <b>GOODBYE!!!</b>
+             </p>
+            </div>
+        </div>  
+    </div>
+</div>
